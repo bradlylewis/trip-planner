@@ -43,27 +43,33 @@ triptactix/
 ## ⚙️ Setup Instructions
 
 1. **Clone the repo**  
-   `git clone https://github.com/yourusername/triptactix.git && cd triptactix`
+   ```bash
+   git clone https://github.com/yourusername/triptactix.git && cd triptactix
+   ```
 
 2. **Install dependencies**  
-   `npm install`
+   ```bash
+   npm install
+   ```
 
 3. **Configure environment variables**  
    Create a `.env` file and add your Supabase, Google Maps, and OpenAI keys:
 
-```
-VITE_SUPABASE_URL=...
-VITE_SUPABASE_ANON_KEY=...
-VITE_GOOGLE_MAPS_API_KEY=...
-VITE_OPENAI_API_KEY=... (optional)
-```
+   ```env
+   VITE_SUPABASE_URL=...
+   VITE_SUPABASE_ANON_KEY=...
+   VITE_GOOGLE_MAPS_API_KEY=...
+   VITE_OPENAI_API_KEY=... (optional)
+   ```
 
 4. **Run the app**  
-   `npm run dev`
+   ```bash
+   npm run dev
+   ```
 
 5. **Deploy**  
-   Use Vercel, Netlify, or Firebase Hosting for frontend  
-   Use Google Cloud Functions for voting + reminder logic
+   - Use Vercel, Netlify, or Firebase Hosting for frontend  
+   - Use Google Cloud Functions for voting + reminder logic
 
 ## 📸 Screenshots
 
