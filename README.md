@@ -4,7 +4,8 @@ A collaborative trip planning tool built with **Vue 3** and **Supabase** that he
 
 ## 🛠 Tech Stack
 
-- **Frontend:** Vue 3 (Composition API), Vue Router, Tailwind CSS, Pinia  
+- **Frontend:** Vue 3 (Composition API), Vue Router, Pinia  
+- **Styling:** vue-styled-components (CSS-in-JS for Vue)  
 - **Drag & Drop:** Vue Draggable (Sortable.js)  
 - **Maps:** Google Maps API  
 - **Backend:** Supabase (PostgreSQL, Auth, Realtime)  
@@ -35,6 +36,7 @@ triptactix/
 │   ├── stores/ (Pinia)  
 │   ├── composables/  
 │   ├── services/ (Supabase + Cloud Functions)  
+│   ├── styles/ (Optional for shared style logic)  
 │   └── App.vue  
 ├── .env  
 ├── functions/ (Cloud Functions)  
